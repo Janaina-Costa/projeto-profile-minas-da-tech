@@ -1,0 +1,38 @@
+.container {
+  margin: auto;
+  text-align: center;
+  
+}
+.wrapper {
+  padding-top: 53px;
+  padding-right: 29px;
+  padding-bottom: 49px;
+  padding-left: 29px;
+}
+img {
+  border: solid 5px #7d42ff;
+  border-radius: 100%;
+}
+h1 {
+  color: #7d42ff;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+p{
+    margin-bottom: 45px;
+}
+
+.social-link{
+    display: block;
+    margin-bottom: 12px;
+    background-color: #7d42ff;
+    border-radius: 12px;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
