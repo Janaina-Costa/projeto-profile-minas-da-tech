@@ -1,7 +1,33 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #a4a4a4 75px,
+      #a4a4a4 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #a4a4a4 76px,
+      #a4a4a4 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    #fff;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
 .container {
   margin: auto;
   text-align: center;
-  
 }
 .wrapper {
   padding-top: 53px;
@@ -9,30 +35,38 @@
   padding-bottom: 49px;
   padding-left: 29px;
 }
-img {
+.img-principal {
   border: solid 5px #7d42ff;
   border-radius: 100%;
+  width: 163px;
+  height: 163px;
 }
 h1 {
+  font-family: "Emilys Candy", cursive;
   color: #7d42ff;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 20px;
-
+  
 }
-p{
-    margin-bottom: 45px;
+p {
+  margin-bottom: 45px;
+  background-color: white;
+}
+.contacts {
+  margin-right: 23px;
+  margin-bottom: 21px;
 }
 
-.social-link{
-    display: block;
-    margin-bottom: 12px;
-    background-color: #7d42ff;
-    border-radius: 12px;
-    padding: 16px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-
+.social-link {
+  display: block;
+  margin-bottom: 12px;
+  background-color: #7d42ff;
+  border-radius: 12px;
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,66,255,1) 42%, rgba(0,212,255,1) 100%);
 }
